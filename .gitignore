@@ -1,0 +1,17 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files (DANGER: contains sensitive credentials)
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Crash logs
+crash.log
+crash.*.log
+
+# CLI configurations & variables
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
